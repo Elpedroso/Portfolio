@@ -1,1 +1,2 @@
+bote os arquivos no htdocs do xampp e execute o codigo database.db no mysql
 extraia o fonts e bote dentro da pasta htdocs
