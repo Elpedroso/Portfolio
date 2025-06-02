@@ -1,0 +1,80 @@
+@font-face {
+    font-family:'yezzi';
+    src:url("/Fonts/yeezy_tstar-bold-webfont.ttf");
+}
+@font-face {
+    font-family:'vcr';
+    src:url("/Fonts/VCR_OSD_MONO_1.001.ttf");
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: black;
+    
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    font-family: yezzi;
+    padding: 35px;
+}
+header>a{
+    text-decoration: none;
+    font-size: 50px;
+    margin-left: 50px;
+    
+}
+nav{
+    display: flex;
+    gap: 20px;
+    margin-right: 50px;
+}
+nav>a{
+    font-family: vcr, sans-serif;
+    text-decoration: none;
+    font-size: 20px;
+    transition: 0.2s;
+}
+nav>a:hover{
+    transform: scale(1.05);
+}
+
+/*  PAGINA PRINCIPAL    */
+.banner{
+    background-color: none;
+    width: fit-content;
+    margin-bottom: 100px;
+    
+    font-family: vcr, serif;
+    transition: 1s;
+}
+
+.titulo-imagem{
+    transition: 1s;
+}
+main>center>div>a>img{
+    box-shadow: rgba(60, 60, 60, 0.5) 10px 10px 10px;
+    margin-bottom: 25px;
+    transition: 1s;
+}
+
+.banner:hover{
+    transform: scale(1.1);
+}
+
+.titulo-imagem:hover{
+    transform: scale(1.40);
+    text-shadow: rgba(60, 60, 60, 0.1) 1px 5px 5px;;
+    
+    
+}
+main>center>div>a>img:hover{
+    box-shadow: rgba(60, 60, 60, 1) 10px 10px 10px;
+    margin-bottom: 25px;
+    transition: 1s;
+    transform: scale(1.0);
+}
+
+/* COLEÇÕES */
+

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PH Portfólio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js"></script>
+</head>
+<body>
+    <div class="particulas"></div>
+    <nav class="navegacao">
+        <ul class="menu">
+            <li>
+                <a href="#inicio" class="menu-link">Início</a>
+            </li>
+            <li>
+                <a href="#sobre" class="menu-link">Sobre</a>
+            </li>
+            <li>
+                <a href="#projetos" class="menu-link">Projetos</a>
+            </li>
+            <li>
+                <a href="#contatos" class="menu-link">Contato</a>
+            </li>
+        </ul>
+    </nav>
+
+    <main id="inicio" class="cabecalho">
+        <div>
+            <img src="/imgs/foto-perfil.png" alt="" class="foto-perfil">
+            <h1>Pedro Henrique</h1>
+            <p class="cabecalho-subtitulo">Desenvolvedor FullStack</p>
+        </div>
+    </main>
+
+    <section id="sobre" class="sobre">
+        <h2 class="sobre-titulo">Sobre Mim</h2>
+        <div class="sobre-caixa">
+            <p class="sobre-paragrafo">
+                Sou um amante da tecnologia e estou sempre atento as ultimas novidades do mercado, buscando sempre aprimorar meus conhecimentos.
+            </p>
+        </div>
+    </section>
+
+    <section id="projetos" class="projetos">
+        <h2 class="projetos-titulo">Meus Projetos</h2>
+        <div class="projetos-caixa">
+
+            <div class="projetos-card">
+                <a href="/projetos/site_historia/1Index/index.html">
+                <img src="/imgs/projeto1.png" alt="" class="projetos-imagem">
+                <div class="caixa-textos-projeto">
+                    <h3 class="info-projetos">Raízes da Historia</h3>
+                    <p class="paragrafo-projetos">Este site foi feito para um trabalho escolar, tendo como foco apresentar conteúdos de historia relacionado as civilizações antigas através de uma interface simples.</p>
+                </div>
+                </a>
+            </div>
+           
+
+            <div class="projetos-card">
+                <a href="/projetos/Bibiju Sem PHP/Site Principal/index.html">
+                <img src="/imgs/projeto2.png" alt="" class="projetos-imagem">
+                <div class="caixa-textos-projeto">
+                    <h3 class="info-projetos">Bibiju</h3>
+                    <p class="paragrafo-projetos">Outro projeto escolar com o foco maior em design. Site feito tanto em uma versão de HTML e CSS, e uma versão com PHP com integração a um banco de dados e um sistema completo de login</p>
+                </div>
+                </a>
+            </div>
+            
+            <div class="projetos-card">
+                <a href="https://todo-com-react.vercel.app/">
+                <img src="/imgs/projeto3.png" alt="" class="projetos-imagem">
+                <div class="caixa-textos-projeto">
+                    <h3 class="info-projetos">Gerenciador de Tarefas</h3>
+                    <p class="paragrafo-projetos">Projeto feito com o intuito de se desenvolver nas linguagens mais populares do mercado, como REACT, Node.js e TailWindCss</p>
+                </div>
+                </a>
+            </div>
+            
+        </div>
+    </section>
+
+    <section id="contatos" class="contatos">
+        <h2 class="contatos-titulo">Entre em Contato</h2>
+            <form action="" class="formulario-contato" id="formulario" onsubmit="enviarWhats(event)">
+                <div class="grupo-form">
+                    <input type="text" placeholder="Nome" class="campo-form" id="nome">
+                </div>
+                <div class="grupo-form">
+                    <textarea name="" id="mensagem" placeholder="Digite sua Mensagem" class="campo-form" rows="4"></textarea>
+                </div>
+
+                <button type="submit" class="botao-form">Enviar Whatsapp</button>
+            </form>
+    </section>
+</body>
+</html>

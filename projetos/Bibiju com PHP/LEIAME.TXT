@@ -1,0 +1,1 @@
+extraia o fonts e bote dentro da pasta htdocs

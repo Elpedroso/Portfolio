@@ -1,0 +1,8 @@
+CREATE DATABASE bibiju2;
+USE bibiju;
+CREATE TABLE cadastro(
+    ID int NOT NULL,
+    usuario varchar(255) NOT NULL,
+    senha varchar(255) NOT NULL,
+    PRIMARY KEY (ID)
+);

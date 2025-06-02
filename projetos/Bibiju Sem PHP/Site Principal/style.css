@@ -1,0 +1,62 @@
+@font-face {
+    font-family:'yezzi';
+    src:url("/Fonts/yeezy_tstar-bold-webfont.ttf");
+}
+@font-face {
+    font-family:'vcr';
+    src:url("/Fonts/VCR_OSD_MONO_1.001.ttf");
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: black;
+    
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    font-family: yezzi;
+    padding: 35px;
+}
+header>a{
+    text-decoration: none;
+    font-size: 60px;
+    margin-left: 100px;
+    
+}
+nav{
+    display: flex;
+    gap: 20px;
+    margin-right: 100px;
+}
+nav>a{
+    font-family: vcr, sans-serif;
+    text-decoration: none;
+    font-size: 30px;
+    transition: 0.2s;
+}
+nav>a:hover{
+    transform: scale(1.05);
+}
+
+/*  PAGINA PRINCIPAL    */
+.banner{
+    background-color: none;
+    width: fit-content;
+    margin-bottom: 100px;
+    
+    font-family: vcr, serif;
+    transition: 1s;
+}
+main>center>div>a>img{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    margin-bottom: 25px;
+}
+.banner:hover{
+    transform: scale(1.15);
+}
+
+/* COLEÇÕES */
+
+

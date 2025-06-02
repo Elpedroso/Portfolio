@@ -1,0 +1,73 @@
+@font-face {
+    font-family:'yezzi';
+    src:url("/Fonts/yeezy_tstar-bold-webfont.ttf");
+}
+@font-face {
+    font-family:'vcr';
+    src:url("/Fonts/VCR_OSD_MONO_1.001.ttf");
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: black;
+    
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    font-family: yezzi;
+    padding: 35px;
+}
+header>a{
+    text-decoration: none;
+    font-size: 60px;
+    margin-left: 100px;
+    
+}
+nav{
+    display: flex;
+    gap: 20px;
+    margin-right: 100px;
+}
+nav>a{
+    font-family: vcr, sans-serif;
+    text-decoration: none;
+    font-size: 30px;
+    transition: 0.2s;
+}
+nav>a:hover{
+    transform: scale(1.05);
+}
+
+/*  PAGINA PRINCIPAL    */
+
+.conteiner {
+    display: flex;
+    justify-content: space-evenly;
+    font-family: yezzi, serif;
+    font-size: 15px;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+.conteiner>a{
+    width: 247px;
+    text-decoration: none;
+    transition: 1s;
+}
+.conteiner>a:hover{
+    transform: scale(1.15);
+  
+}
+img{
+    margin-bottom: 15px;
+    transition: 1s;
+}
+img:hover{
+    box-shadow: 0px 4px 50px rgba(0, 0, 0, 0.50);
+}
+h1{
+    margin-top: 10px;
+}
+
